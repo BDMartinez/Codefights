@@ -1,6 +1,6 @@
 // // Declare a function that checks if an input string is a palindrome
 function checkPalindrome(inputString) {
-  inputString == inputString.split('').reverse().join('')
+  return inputString == inputString.split('').reverse().join('')
 }
 
 // // The long way
