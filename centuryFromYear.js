@@ -1,4 +1,6 @@
+// Create a function that returns the century of a the year it's provided
 centuryFromYear = (year) => {
+  // return the smallest integer greater than or equal to the year divided by 100
   return Math.ceil( year / 100)
 }
 
@@ -14,7 +16,7 @@ centuryFromYear(1992)
 //
 //   // Store the length of the Year
 //   let yearLength = yearStr.length
-// 
+//
 //   // Split the year into individual characters
 //   let yearArr = yearStr.split("")
 //
